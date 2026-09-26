@@ -1,45 +1,44 @@
-cv: 
+cv:
+  name: Simone Piaggesi
+  label: AI Researcher & Data Scientist
+  #email: ""
+  #location: ""
+  #image: ""
+  summary: Data Scientist and AI Researcher currently working on Explainable and Trustworthy AI. Over the last 6+ years, I have developed ML methods applied to problems spanning drug sensitivity analysis, tabular data modeling, and graph representation learning, translating research advances into reliable tools that support AI-assisted decision-making in scientific and real-world settings.
+      
   sections:
     Education:
-      - institution: University of Bologna
+      - institution: University of Bologna & ISI Foundation
         location: Bologna, IT
         # url: ""
-        area: ""
-        studyType: PhD in Data Science and Computation
+        area: Data Science and Computation
+        studyType: Doctor of Philosophy
         start_date: 2018
         end_date: 2023
-        score: ""
-        courses: ""
-        #highlights:
-        #  - Description 1.
-        #  - Description 2.
+        highlights:
+          - 'Thesis: "Learning Representations for Graph-Structured Socio-Technical Systems" (node embeddings, dynamic networks, link prediction).'
+          - 'Supervisors: Ciro Cattuto (ISI Foundation), André Panisson (ISI Foundation, CENTAI).'
 
       - institution: University of Turin
         location: Turin, IT
         # url: ""
-        area: ""
-        studyType: MSc in Physics of Complex Systems
+        area: Physics of Complex Systems
+        studyType: Master's Degree
         start_date: 2014
         end_date: 2017
-        score: ""
-        courses: ""
-        #highlights:
-        #  - Description 1.
-        #  - Description 2.
+        highlights:
+          - 'Thesis: "Statistical Analysis and Modelling of Users Exploratory Behaviour in Vector Embedding Spaces" (word embeddings, large-scale text processing, user modeling).'
+          - 'Supervisors: Ciro Cattuto (ISI Foundation), André Panisson (ISI Foundation).'
         
       - institution: University of Turin
         location: Turin, IT
         # url: ""
-        area: ""
-        studyType: BSc in Physics
+        area: Physics
+        studyType: Bachelor's Degree
         start_date: 2011
         end_date: 2014
-        score: ""
-        courses: ""
-        #highlights:
-        #  - Description 1.
-        #  - Description 2.
-
+        highlights:
+          - 'Thesis: "Quantum Information and Teleportation on Quantum Memories".'
 
     Experience:
       - company: Department of Computer Science, University of Pisa
@@ -47,49 +46,55 @@ cv:
         location: Pisa, IT
         start_date: 2023
         # end_date: 
-        summary: ""
-        #highlights:
-        #  - Description 1.
-        #  - Description 2.
+        summary: KDD Lab member. ERC Advanced Grant *XAI* project team (2023-2025). Co-writer of the ERC Proof-of-Concept *ILLUME-4-Science* and WP-leader (2025-2026).
+        highlights:
+          - Designed and implemented meta-encoding pipelines to produce local explanations without per-sample surrogate retraining, achieving orders-of-magnitude faster inference and supporting XAI-assisted scientific hypothesis formulation (e.g., discovery of gene-gene interactions driving cancer cell drug response from transcriptomics data)
+          - Built robust interpretability and counterfactual methods, improving explanation stability and auditability, outperforming SHAP/LIME while reducing explanation variance.
 
       - company: CENTAI Institute
         position: Research Intern
         location: Turin, IT
         start_date: Oct 2022
         end_date: Feb 2023
-        summary: ""
-        #highlights:
-        #  - Description 1.
-        #  - Description 2.
+        summary: Visiting internship within the Responsible AI group led by Principal Researcher André Panisson. 
+        highlights:
+          - Built self-explainable graph neural networks that improve produce explainable graph features usable in downstream link prediction and node classification workflows.
         
       - company: Delft University of Technology
         position: Research Intern
         location: Delft, NL
         date: Sep 2022
-        summary: ""
-        #highlights:
-        #  - Description 1.
-        #  - Description 2.
+        summary: Visiting internship within the Web Information System group led by Associate Professor Avishek Anand, within the Software Technology department.
+        highlights:
+          - Implemented node retrofitting methods for post-processing graph embeddings and obtaining human-interpretable features.
         
       - company: L3S Research Center
-        position: Research Intern
+        position: Research Intern - SoBigData++ Transnational Access
         location: Hannover, DE
         start_date: Jun 2022
         end_date: Jul 2022
-        summary: ""
-        #highlights:
-        #  - Description 1.
-        #  - Description 2.
+        summary: Visiting internship for the research track *Social Impact of AI and explainable ML*, in collaboration with Profs. Avishek Anand and Megha Khosla.
+        highlights:
+          - Designed feature-level explainability methods for opaque node embeddings, with benchmarking of existing embedding methods for graphs.
         
       - company: ISI Foundation
-        position: Research Data Scientist
+        position: Doctoral Researcher
         location: Turin, IT
-        start_date: 2017
+        start_date: 2018
         end_date: 2022
         summary: ""
-        #highlights:
-        #  - Description 1.
-        #  - Description 2.
+        highlights:
+          - Developed node embedding algorithms for dynamic graphs and hypergraphs, with applications in link prediction for social network analysis and epidemiological forecasting.
+          
+      - company: ISI Foundation
+        position: Junior Researcher - Lagrange Applied Research Scholarship 
+        location: Turin, IT
+        start_date: 2017
+        end_date: 2018
+        summary: ""
+        highlights:
+          - Inferred human behavior from call detail records to characterize gender-based urban mobility; developed urban-level income predictors from satellite imagery and FB Ads attributes.
+        
 
 
     Honors and Awards:
@@ -97,31 +102,26 @@ cv:
         date: 2026
         awarder: European Research Council
         url:
-        summary: Co-writer and WP leader --- 18-month project for tech transfer translating XAI research prototypes into applied ML tools
+        summary: Co-writer and WP-leader for an 18-month technology-transfer project translating XAI research prototypes into applied ML tools.
         
       - title: SoBigData++ Transnational Access
         date: 2022
         awarder: SoBigData
         url:
-        summary: Grant winner --- 2-month research scholarship in "Social Impact of AI and Explainable ML"
+        summary: Recipient of a two-month research scholarship in "Social Impact of AI and Explainable ML", providing access to big-data computing platforms and computational methods within European research infrastructures.
         
-      - title: Lagrange Fellowship 
+      - title: Lagrange Applied Research Scholarship
         date: 2017
-        awarder: ISI Foundation
+        awarder: Fondazione CRT / ISI Foundation
         url:
-        summary: Grant winner --- 1-year research scholarship in "Data Science for Social Impact" 
-
-  
-    Languages:
-      - name: Italian
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Professional fluency"
+        summary: Recipient of a one-year research scholarship supporting projects in Data Science and Digital Epidemiology at the intersection of science, technology, and public health.
         
-      - name: French
-        summary: "Basic knowledge"
-
+        
+    Skills:
+      - name: Programming & Machine Learning
+        icon: fa-solid fa-code
+        keywords: "Python, Pandas, PyTorch, PyTorch Geometric, LangChain, Scikit-Learn, SHAP, NetworkX, PySpark, Optuna, Gensim"
+        
     Certificates:
       - name: Building RAG Agents with LLMs
         date: 2024
@@ -139,3 +139,16 @@ cv:
         #icon: fa-solid fa-location-dot     
 
       
+     
+  
+    Languages:
+      - name: Italian
+        summary: "Native speaker"
+
+      - name: English
+        summary: "Professional fluency"
+        
+      - name: French
+        summary: "Basic knowledge"
+
+    
